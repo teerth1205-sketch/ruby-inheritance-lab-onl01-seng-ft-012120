@@ -7,4 +7,13 @@ class User
     @first
   end 
   
+  def last_name=(name)
+    @first = name 
+  end 
+  
+  def last_name
+    @first
+  end 
+  
+end 
   
